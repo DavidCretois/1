@@ -1,0 +1,251 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(bg.jpg.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  ul {
+    list-style-type: disc;
+  }
+
+  .box{
+    width: 1100px;
+    background: rgba(129, 123, 123, 0.829);
+    padding: 50px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: white;
+    font-family: 'Century Gothic',sans-serif;
+  }
+
+  .box-img {
+      display: inline-block;
+      vertical-align: middle;
+      position: relative;
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      border: 3px dashed black;
+      background-clip: content-box;
+      padding: 10px;
+      transition: .5s;
+      color: #D7D0BE;
+      margin-left: 35px;
+      margin-right: 35px;
+      font-size: 50px;
+  }
+
+  .box-img1 {
+    display: inline-block;
+    vertical-align: left;
+    text-align: left;
+    position: relative;
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    border: 2px dashed white;
+    background-clip: content-box;
+    padding: 10px;
+    transition: .5s;
+    color: #D7D0BE;
+    margin-left: 35px;
+    margin-right: 35px;
+    font-size: 50px;
+}
+
+.box-img2 {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 2px dashed black;
+  background-clip: content-box;
+  padding: 10px;
+  transition: .5s;
+  color: #D7D0BE;
+  margin-left: 35px;
+  margin-right: 35px;
+  font-size: 50px;
+}
+
+  .box h1{
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight: 100;
+  }
+
+  .box h2{
+    font-size: 35px;
+    text-align: center;
+  }
+
+  .box h5{
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 10;
+    text-align: left;
+  }
+
+  .box p{
+    text-align: center;
+    font-size: 25px;
+  }
+
+  .box li{
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+  }
+  .box li a{
+    color: white;
+    text-decoration: none;
+    font-size: 60px;
+    transition: all ease-in-out 250ms;
+  }
+  .box li a:hover{
+    color: #b9b9b9;
+  }
+  
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.5;
+      border: 3px dashed black;
+  }
+  
+
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-github {
+    background: #6a6e7c;
+    color: white;
+  }
+
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  
+  .fa-pinterest {
+    background: #cb2027;
+    color: white;
+  }
+  
+  .fa-snapchat-ghost {
+    background: #fffc00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+
+  .box-img:hover {
+    padding: 20px;
+    color: white;
+    margin-left: -5px;
+    transform: translateX(10px) rotate(360deg);
+  }
+
+  .box-img1:hover {
+    padding: 20px;
+    color: white;
+    margin-left: -5px;
+    transform: translateX(10px) rotate(360deg);
+  }
+
+  .box-img2:hover {
+    padding: 20px;
+    color: white;
+    margin-left: -5px;
+    transform: translateX(10px) rotate(360deg);
+  }
+
+  .button {
+    border: black;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 26px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: black;
+    border-radius: 8rem;
+  }
+  
+  .button1:hover {
+    opacity: 0.7;
+  }
+
+  .container {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    display: block;
+    width: 80%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 90%;
+    width: 90%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+
+  .button1 {background-color: rgb(113, 153, 228);} /* Green */
