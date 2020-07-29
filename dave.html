@@ -125,6 +125,29 @@
 <li><a href="https://www.pinterest.fr/davecretois/boards/"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
 </ul>
 
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyDQE4rBw2oLGaes7Vr2eWJFaegFZ9VdIyE",
+    authDomain: "dave-developer.firebaseapp.com",
+    databaseURL: "https://dave-developer.firebaseio.com",
+    projectId: "dave-developer",
+    storageBucket: "dave-developer.appspot.com",
+    messagingSenderId: "1064355725115",
+    appId: "1:1064355725115:web:3805f9105236b0a00d411e",
+    measurementId: "G-FT9DVMDC1L"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
 </div>
 </body>
 </html>
